@@ -10,10 +10,8 @@ namespace LatihanOverloadingMethod
     {
         public int FindingMinimum(int number1, int number2) 
         {
-            if (number1 < number2)
-                return number1;
-            else
-                return number2;
+            return (int)Math.Min(number1,number2);
+           
         }
 
         public int FindingMinimum(int number1, int number2,float number3)
